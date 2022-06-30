@@ -1,0 +1,12 @@
+name: TutorialPlugin
+version: '${project.version}'
+main: net.syobonoon.plugin.tutorialplugin.TutorialPlugin
+api-version: 1.15
+
+commands:
+  dainai:
+    description: explosion.
+    usage: /<command> [PlayerName]
+  countdown:
+    description: countdown timer.
+    usage: /<command> [secound]
